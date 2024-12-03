@@ -1,6 +1,7 @@
 import React from 'react';
-import { Menu, X, Brain } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import DemoModal from './DemoModal';
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <div className="flex items-center gap-2">
-                  <Brain className="h-8 w-8" />
+                  <Logo />
                   <span className="font-bold text-xl">HY24.ai</span>
                 </div>
               </div>

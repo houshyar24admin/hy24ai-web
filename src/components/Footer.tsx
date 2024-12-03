@@ -1,5 +1,6 @@
 import React from 'react';
-import { Brain, Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter } from 'lucide-react';
+import Logo from './Logo';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <Brain className="h-8 w-8" />
+              <Logo />
               <span className="font-bold text-xl">HY24.ai</span>
             </div>
             <p className="text-gray-300">
