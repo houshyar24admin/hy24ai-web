@@ -68,13 +68,13 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="flex items-start space-x-4">
+            {/* <div className="flex items-start space-x-4">
               <Phone className="w-6 h-6 text-purple-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-gray-900">Phone</h3>
                 <p className="text-gray-600">+1 (604) XXX-XXXX</p>
               </div>
-            </div>
+            </div> */}
             
             <div className="flex items-start space-x-4">
               <Mail className="w-6 h-6 text-purple-600 flex-shrink-0" />
