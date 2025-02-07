@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/blog/:path*",
+        "destination": "https://wp.hy24.ir/:path*"
+      }
+    ]
+  }
+  
